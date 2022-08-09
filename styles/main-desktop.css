@@ -1,0 +1,65 @@
+@media screen and (min-width: 730px) {
+  html {
+    margin: 0 auto;
+  }
+
+  .nav__warpper {
+    position: static;
+  }
+
+  .navbar__icon {
+    display: none;
+  }
+
+  .nav__bar_links {
+    display: flex;
+  }
+
+  .nav__warpper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav__warpper * a {
+    margin: 0 20px 0 20px;
+  }
+
+  .nav__bar_links {
+    display: flex;
+    flex-direction: row;
+    margin: 0 20px 0 20px;
+  }
+
+  .hero__page {
+    padding: 40px 40px 0 40px;
+    flex-direction: row;
+  }
+
+  .hero__page-right {
+    margin-bottom: 0;
+  }
+  
+  .hero__page-profile {
+    width: 70%;
+  }
+
+  .skills__wrapper {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .portfolio__wrapper {
+    display: flex;
+  }
+
+  .portfolio__content {
+    margin: 10px;
+  }
+
+  .contact__form {
+    max-width: 700px;
+  }
+}

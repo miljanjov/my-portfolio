@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Miljan Jovović</title>
+    <link rel="stylesheet" href="/styles/normalization.css" />
+    <link rel="stylesheet" href="/styles/main.css" />
+    <link rel="stylesheet" href="/styles/main-desktop.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <nav class="nav__warpper">
+        <div class="navbar__header">
+          <img
+            class="navbar__icon"
+            onclick="navMenu()"
+            src="/images/bars-solid.svg"
+            alt=""
+          />
+          <a class="logo" href="/">Miljan Jovović 🙃</a>
+        </div>
+        <div class="collapse">
+          <ul id="nav" class="nav__bar_links">
+            <li class="nav__link"><a href="#hero">ME</a></li>
+            <li class="nav__link"><a href="#skills">SKILLS</a></li>
+            <li class="nav__link"><a href="#portfolio">PORTFOLIO</a></li>
+            <li class="nav__link"><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="hero__page" id="hero">
+        <div class="hero__page-left">
+            <h2>Hi there, I am Miljan.</h2>
+        <p class="hero__text">
+          I began my career as a sales in the automotive parts retail industry,
+          where I've been working for the last 9 years. This job taught me how
+          to communicate with people of different personalities and how
+          important it is to quickly respond to clients' requests, because the
+          market is dynamic and ruthless. Over the years, we were introduced to
+          bunch of different softwares that were supposed to make our job
+          easier, but those tools were very often hard to learn and use, with
+          minimal documentation available. So, I spent more and more time
+          looking into issues and wondering why it's so hard to develop
+          something that looks so easy to me? I started to be curious how that
+          actually works and reachout to some of my friends who were developers.
+          And that's where my programming journey started...
+        </p>
+        <button id="hire-me" class="hero__btn" onclick="goToContactForm()">
+          Hire me 👈
+        </button>
+        </div>
+        <div class="hero__page-right">
+            <img class="hero__page-profile" src="/images/profile.png" alt="profile picture">
+        </div>
+      </div>
+      <div class="skills__wrapper" id="skills">
+        <h2>I have few skills 💻</h2>
+        <p class="portfolio__text">
+          During the last couple of months, I went firstly through the process
+          of understanding basic terminology, what is that developers actually
+          do, to some basic technologies like HTML, CSS, JavaScript. My first
+          learning path started with series of videos from
+          <a href="https://www.danilovesovic.com/">Danilo Vesovic</a>, basics of
+          HTML, CSS, JavaScript (React). I continued with courses of
+          <a href="https://codewithmosh.com/">Mosh Hamedani</a>,
+          <a href="https://wesbos.com/about">Wes Bos</a>, Kyle Simpson' book
+          "You don't know JS".
+        </p>
+
+        <div class="badges">
+            <img class="badge" src="/images/html.png" alt="html logo">
+            <img class="badge" src="/images/css.png" alt="css logo">
+            <img class="badge" src="/images/bootstrap.png" alt="bootstrap logo">
+            <img class="badge" src="/images/sass.png" alt="sass logo">
+            <img class="badge" src="/images/javascript.png" alt="js logo">
+            <img class="badge" src="/images/react.png" alt="react logo">
+        </div>
+    </div>
+      <div class="portfolio__wrapper" id="portfolio">
+        <section class="portfolio__content">
+          <p class="portfolio__text">
+            <strong>MV-IZOL</strong> is a company that implements hidroisolation solutions in
+            Czech Republic for more than ten years. During pandemic period, they
+            realised in order to reach more customers they need a website which
+            would provide them information about the company and the services
+            they're providing. Building a website for <strong>MV-IZOL</strong> was my first
+            project and my responsibilities were communicating with the designer
+            and frontend development. Website was built using the Gatsby
+            framework.
+          </p>
+          <img
+            class="portfolio__img"
+            src="/images/MV-izol.png"
+            alt="MV-izol logo"
+          />
+          <a href="https://www.mv-izol.cz/">Visit website</a>
+        </section>
+        <section class="portfolio__content">
+          <p class="portfolio__text">
+            <strong>OrderMio</strong> is a product of <strong>Mio Software</strong> company, which aims to
+            facilitate the process of ordering food in restaurants and hotels.
+            Users access the menu and order items using software installed on
+            tablets. <strong>OrderMio</strong> provides a powerful interface used by customers
+            and hotel personnel, as well as the administration panel. My
+            responsibilities were related to building order picker where I used
+            React, styled-components and React hooks. For collaboration we used
+            Git and for task management we used Trello.
+          </p>
+          <img
+            class="portfolio__img"
+            src="/images/order-mio-logo.svg"
+            alt="order mio logo"
+          />
+          <a href="https://ordermio.com/">Visit website</a>
+        </section>
+        <section class="portfolio__content">
+          <p class="portfolio__text">
+            <strong>Auxivo</strong> is a company which focuses on the design and development of
+            wearable exoskeletons to support industry workers. My
+            responsibilities were to build a mobile application, which serves to
+            collect data that workers manually input during work. These data are
+            later used to improve development of exoskeletons. Application is
+            built using React Native.
+          </p>
+          <img
+            class="portfolio__img"
+            src="/images/auxivo-logo.svg"
+            alt="auxivo logo"
+          />
+          <a href="https://www.auxivo.com/">Visit website</a>
+        </section>
+      </div>
+
+      <div class="contact__warpper" id="contact">
+        <h2>Let's get in touch!</h2>
+        <p>
+          Feel free to contact me 👋
+        </p>
+        <div class="contact__icon_wrapper">
+          <a href="https://www.linkedin.com/in/miljan-jovovic-b33baa247/">
+            <img
+              class="icon"
+              src="/images/linkedin-brands.svg"
+              alt="linkedin icon"
+            />
+          </a>
+          <a href="https://github.com/miljanjov">
+            <img
+              class="icon github__icon"
+              src="/images/github-brands.svg"
+              alt="github icon"
+            />
+          </a>
+        </div>
+        <form
+          id="my-form"
+          class="contact__form"
+          action="https://formspree.io/f/xnqrqqrn"
+          method="POST"
+        >
+          <input
+            class="form__control"
+            id="email"
+            name="email"
+            type="email"
+            placeholder="Your email"
+            required
+          />
+          <input
+            class="form__control"
+            id="subject"
+            name="subject"
+            type="text"
+            placeholder="Subject"
+            required
+          />
+          <textarea
+            class="contact__message"
+            name="message"
+            id="message"
+            rows="10"
+            placeholder="Message"
+            required
+          ></textarea>
+          <button id="my-form-button" class="send__btn" type="submit">
+            Send message
+          </button>
+          <p id="my-form-status"></p>
+        </form>
+      </div>
+      <footer class="footer">© Powered by Miljan Jovović</footer>
+    </div>
+    <script src="/index.js"></script>
+  </body>
+</html>
