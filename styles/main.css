@@ -9,7 +9,7 @@
 
 @font-face {
   font-family: Montserat-Regular;
-  src: url(/fonts/Montserrat-Regular.otf);
+  src: url(../fonts/Montserrat-Regular.otf);
 }
 
 * {
